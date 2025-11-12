@@ -43,12 +43,12 @@ import (
 	"unicode"
 	"unsafe"
 
-	"kingbase.com/gokb/oid"
-	"kingbase.com/gokb/oid/mysqlOid"
-	"kingbase.com/gokb/oid/oracleOid"
-	"kingbase.com/gokb/oid/sqlserverOid"
-	"kingbase.com/gokb/scram"
-	"kingbase.com/gokb/sm3"
+	"github.com/heqiang6/gorm-kingbase-driver/gokb/oid"
+	"github.com/heqiang6/gorm-kingbase-driver/gokb/oid/mysqlOid"
+	"github.com/heqiang6/gorm-kingbase-driver/gokb/oid/oracleOid"
+	"github.com/heqiang6/gorm-kingbase-driver/gokb/oid/sqlserverOid"
+	"github.com/heqiang6/gorm-kingbase-driver/gokb/scram"
+	"github.com/heqiang6/gorm-kingbase-driver/gokb/sm3"
 
 	"github.com/golang-sql/civil"
 	"github.com/shopspring/decimal"

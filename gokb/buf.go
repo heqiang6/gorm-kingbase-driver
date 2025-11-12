@@ -25,7 +25,7 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"kingbase.com/gokb/oid"
+	"github.com/heqiang6/gorm-kingbase-driver/gokb/oid"
 )
 
 type writeBuf struct {

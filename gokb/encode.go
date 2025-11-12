@@ -34,8 +34,8 @@ import (
 	"strings"
 	"time"
 
-	"kingbase.com/gokb/oid"
-	"kingbase.com/gokb/oid/oracleOid"
+	"github.com/heqiang6/gorm-kingbase-driver/gokb/oid"
+	"github.com/heqiang6/gorm-kingbase-driver/gokb/oid/oracleOid"
 
 	"github.com/golang-sql/civil"
 	"github.com/shopspring/decimal"

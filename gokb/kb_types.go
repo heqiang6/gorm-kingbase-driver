@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"kingbase.com/gokb/oid"
+	"github.com/heqiang6/gorm-kingbase-driver/gokb/oid"
 )
 
 /*****************conn.go*****************/
