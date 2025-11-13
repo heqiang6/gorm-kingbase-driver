@@ -32,7 +32,7 @@ package main
 import (
     "fmt"
     "gorm.io/gorm"
-    "github.com/heqiang6/gorm-kingbase-driver/gokb"
+	kingbase "github.com/heqiang6/gorm-kingbase-driver"
 )
 
 type User struct {
@@ -42,7 +42,9 @@ type User struct {
 
 func main() {
     dsn := "host=127.0.0.1 user=system password=123456 dbname=test port=54321 sslmode=disable"
-    db, err := gorm.Open(gokb.Open(dsn), &gorm.Config{})
+
+    // 使用 Kingbase 驱动连接数据库
+	db, err := gorm.Open(kingbase.Open(dsn), &gorm.Config{}) // 具体写法根据项目代码结构可能不同
     if err != nil {
         panic(fmt.Sprintf("failed to connect to Kingbase database: %v", err))
     }
