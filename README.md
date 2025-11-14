@@ -14,9 +14,8 @@ A GORM driver adapter for KingbaseES (人大金仓数据库 GORM 驱动适配层
 - ✅ **提供 Migrate 迁移类**，支持自动迁移、结构变更等操作（参考：[GORM Migration 文档](https://gorm.io/zh_CN/docs/migration.html)）  
 - ✅ 支持基本的 CRUD 操作与事务管理  
 - ✅ 支持事务与连接池管理  
-- ✅ 支持原生 SQL 查询与 GORM 表达式  
-- 🧩 可扩展特性：批量插入、DDL 自动生成、时间类型自动转换、错误类型映射等  
-
+- ✅ 支持原生 SQL 查询与 GORM 表达式
+  
 ---
 
 ## 📦 快速开始
