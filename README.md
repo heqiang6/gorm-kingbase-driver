@@ -8,10 +8,10 @@ A GORM driver adapter for KingbaseES (人大金仓数据库 GORM 驱动适配层
 
 ## ✨ 特性
 
-- ✅ **基于 GORM v2 实现**，无缝集成 GORM ORM 框架  
-- ✅ **兼容人大金仓官方 `gokb` 驱动**  
-- ✅ **提供自定义 GORM 驱动类**（参考：[GORM 自定义驱动文档](https://gorm.io/zh_CN/docs/write_driver.html)）  
-- ✅ **提供 Migrate 迁移类**，支持自动迁移、结构变更等操作（参考：[GORM Migration 文档](https://gorm.io/zh_CN/docs/migration.html)）  
+- ✅ 基于 GORM v2 实现，无缝集成 GORM ORM 框架  
+- ✅ 兼容人大金仓官方 `gokb` 驱动  
+- ✅ 提供自定义 GORM 驱动类（参考：[GORM 自定义驱动文档](https://gorm.io/zh_CN/docs/write_driver.html)）  
+- ✅ 提供 Migrate 迁移类，支持自动迁移、结构变更等操作（参考：[GORM Migration 文档](https://gorm.io/zh_CN/docs/migration.html)）  
 - ✅ 支持基本的 CRUD 操作与事务管理  
 - ✅ 支持事务与连接池管理  
 - ✅ 支持原生 SQL 查询与 GORM 表达式
